@@ -16,9 +16,9 @@ pipeline {
 
     tools {
 
-        maven 'Your Maven Name'
+        maven 'Maven Home'
 
-        jdk 'Your JDK Name'
+        jdk 'Java'
 
     }
 
@@ -32,9 +32,9 @@ pipeline {
 
                                                                 git (
 
-                                                                                url: '<GitURL>',
+                                                                                url: 'https://github.com/DpkOracle/Multibranch.git',
 
-                                                                                credentialsId: '<UR>'
+                                                                                credentialsId: '9b7dc132-cd86-428a-afdc-1dff935d5b85'
 
                                                                 )
 
